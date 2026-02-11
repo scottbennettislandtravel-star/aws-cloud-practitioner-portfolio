@@ -30,3 +30,16 @@ Managed policies provide broad access and are useful for rapid configuration but
 Custom policies enable granular control over specific AWS resources.
 Assigning permissions to groups rather than individual users improves scalability and maintainability.
 IAM policies are evaluated based on explicit allow/deny logic, reinforcing secure design principles.
+
+Evidence
+AM Group Permissions
+[IAM Group Permissions](images/iam-group-permissions.png)
+
+IAM User Details
+[IAM User Details](images/iam-user-details.png)
+
+Custom Policy JSON
+[Custom Policy JSON](images/custom-policy-json.png)
+
+S3 Bucket Overview
+[S3 Bucket Overview](images/s3-bucket-overview.png)
