@@ -32,6 +32,7 @@ Assigning permissions to groups rather than individual users improves scalabilit
 IAM policies are evaluated based on explicit allow/deny logic, reinforcing secure design principles.
 
 Evidence
+
 AM Group Permissions
 [IAM Group Permissions](images/iam-group-permissions.png)
 
