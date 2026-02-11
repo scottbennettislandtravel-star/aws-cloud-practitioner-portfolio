@@ -1,2 +1,2 @@
-# aws-cloud-practitioner-portfolio
+# AWS cloud practitioner portfolio
 Professional AWS Practitioner Portfolio
