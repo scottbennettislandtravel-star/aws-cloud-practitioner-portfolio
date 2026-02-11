@@ -1,2 +1,2 @@
-# AWS cloud practitioner portfolio
+
 
