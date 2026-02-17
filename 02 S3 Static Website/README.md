@@ -8,7 +8,7 @@ To host a static website using Amazon S3 by configuring bucket settings, enablin
 User → Internet → S3 Bucket (Static Website Hosting Enabled)
 This project demonstrates how static content can be served directly from S3 without the need for a compute service such as EC2.
 
-## Implementation Steps
+## Steps
 1. Created an S3 bucket named scott-s3-static-website-2026
 2. Disabled “Block all public access” settings to allow public hosting
 3. Uploaded a static HTML file (index.html) to the root of the bucket
