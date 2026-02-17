@@ -52,3 +52,6 @@ This debugging process reinforced the importance of using AWS CLI tools for accu
 
 ### Live Website
 ![Website](images/live-website.png)
+
+### 404 Error
+![404 Error](images/404-not-found-error.png)
