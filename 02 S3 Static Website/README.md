@@ -37,7 +37,6 @@ This project demonstrates how static content can be served directly from S3 with
 When attempting to access the static website endpoint, the following error was returned:
 - 404 Not Found
 - NoSuchKey: index.html
-
 This indicated that Amazon S3 could not locate the specified object.
 
 ### Investigation Process
@@ -45,7 +44,6 @@ Initial checks confirmed:
 - The file appeared to exist in the S3 console
 - Static website hosting was enabled
 - The correct index document was configured
-
 To verify the actual state of the bucket, AWS CloudShell was used.
 
 ### CLI Verification
