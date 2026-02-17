@@ -6,7 +6,7 @@ To host a static website using Amazon S3 by configuring bucket settings, enablin
 
 ## Architecture Overview
 User → Internet → S3 Bucket (Static Website Hosting Enabled)
-This project demonstrates how static content can be served directly from S3 without the need for a compute service such as EC2.
+This project demonstrates how static content can be served directly from S3 without requiring a compute service such as EC2.
 
 ## Steps
 1. Created an S3 bucket named scott-s3-static-website-2026
@@ -44,7 +44,7 @@ Initial checks confirmed:
 - The file appeared to exist in the S3 console
 - Static website hosting was enabled
 - The correct index document was configured
-To verify the actual state of the bucket, AWS CloudShell was used.
+To verify the bucket's actual state, AWS CloudShell was used.
 
 ### CLI Verification
 The following command was executed:
@@ -54,7 +54,7 @@ This returned a 404 error, confirming that the object did not exist at the expec
 ### Resolution
 The file was re-uploaded using the AWS CLI to ensure correct placement at the root of the bucket:
 aws s3 cp index.html s3://scott-s3-static-website-2026/index.html --content-type text/html
-After this, the object was successfully detected and the website loaded correctly.
+After this, the object was successfully detected, and the website loaded correctly.
 
 ### Key Learning
 - The AWS Management Console may not always reflect the exact state of resources
