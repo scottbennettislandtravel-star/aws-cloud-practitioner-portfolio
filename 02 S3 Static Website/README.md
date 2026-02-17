@@ -72,8 +72,13 @@ After this, the object was successfully detected and the website loaded correctl
 
 This debugging process reinforced the importance of using AWS CLI tools for accurate verification and troubleshooting in cloud environments.
 
-## Evidence
+## Security Considerations
+- Public access was intentionally enabled for static website hosting
+- Bucket policy was configured to allow read-only access to objects
+- Access was limited to GET requests only
+- In production, additional layers such as CloudFront and HTTPS would be recommended
 
+## Evidence
 ### S3 Bucket Configuration
 ![S3 Bucket](images/s3-bucket-overview.png)
 
