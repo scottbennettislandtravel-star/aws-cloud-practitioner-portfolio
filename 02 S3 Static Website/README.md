@@ -36,3 +36,5 @@ After this, the object was successfully detected and the website loaded correctl
 - AWS CLI provides a more reliable and precise method for verifying resource existence
 - S3 object keys must match exactly; even small differences result in errors
 - Debugging in AWS should be based on verification, not assumptions
+
+This debugging process reinforced the importance of using AWS CLI tools for accurate verification and troubleshooting in cloud environments.
