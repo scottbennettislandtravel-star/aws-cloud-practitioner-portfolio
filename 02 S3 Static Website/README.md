@@ -53,8 +53,3 @@ To verify the bucket's actual state, AWS CloudShell was used.
 The following command was executed:
 ```bash
 aws s3api head-object --bucket scott-s3-static-website-2026 --key index.html
-This returned a 404 error, confirming that the object did not exist at the expected key.
-
-Resolution
-
-The file was re-uploaded using the AWS CLI to ensure correct placement at the root of the bucket:
