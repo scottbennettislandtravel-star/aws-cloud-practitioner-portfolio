@@ -38,3 +38,17 @@ After this, the object was successfully detected and the website loaded correctl
 - Debugging in AWS should be based on verification, not assumptions
 
 This debugging process reinforced the importance of using AWS CLI tools for accurate verification and troubleshooting in cloud environments.
+
+## Evidence
+
+### S3 Bucket Configuration
+![S3 Bucket](images/s3-bucket-overview.png)
+
+### Static Website Hosting
+![Static Hosting](images/static-hosting.png)
+
+### Bucket Policy
+![Bucket Policy](images/bucket-policy.png)
+
+### Live Website
+![Website](images/live-website.png)
