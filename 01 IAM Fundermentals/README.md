@@ -40,13 +40,13 @@ IAM policies are evaluated based on explicit allow/deny logic, reinforcing secur
 ## Evidence
 
 ### AM Group Permissions
-[IAM Group Permissions](images/iam-group-permissions.png)
+![IAM Group Permissions](images/iam-group-permissions.png)
 
 ### IAM User Details
-[IAM User Details](images/iam-user-details.png)
+![IAM User Details](images/iam-user-details.png)
 
 ### Custom Policy JSON
-[Custom Policy JSON](images/custom-policy-json.png)
+![Custom Policy JSON](images/custom-policy-json.png)
 
 ### S3 Bucket Overview
-[S3 Bucket Overview](images/s3-bucket-overview.png)
+![S3 Bucket Overview](images/s3-bucket-overview.png)
