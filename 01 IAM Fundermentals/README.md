@@ -37,7 +37,7 @@ Custom policies enable granular control over specific AWS resources.
 Assigning permissions to groups rather than individual users improves scalability and maintainability.
 IAM policies are evaluated based on explicit allow/deny logic, reinforcing secure design principles.
 
-### Evidence
+## Evidence
 
 AM Group Permissions
 [IAM Group Permissions](images/iam-group-permissions.png)
