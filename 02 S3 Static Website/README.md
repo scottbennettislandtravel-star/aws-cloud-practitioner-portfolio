@@ -1,5 +1,38 @@
+### Objective
+To host a static website using Amazon S3 by configuring bucket settings, enabling static website hosting, and applying a bucket policy to allow public read access to objects.
 
-## Debugging & Issue Resolution
+### Services Used
+- Amazon S3
+
+### Architecture Overview
+User → Internet → S3 Bucket (Static Website Hosting Enabled)
+This project demonstrates how static content can be served directly from S3 without the need for a compute service such as EC2.
+
+### Implementation Steps
+1. Created an S3 bucket named scott-s3-static-website-2026
+2. Disabled “Block all public access” settings to allow public hosting
+3. Uploaded a static HTML file (index.html) to the root of the bucket
+4. Enabled static website hosting in the bucket properties
+5. Configured the index document as index.html
+6. Applied a bucket policy to allow public read access (s3:GetObject)
+7. Accessed the website via the S3 website endpoint
+
+### Key Concepts Demonstrated
+- Static website hosting using S3
+- Public access configuration and its implications
+- Resource-based policies (bucket policies)
+- Object-level permissions (s3:GetObject)
+- Importance of correct object key placement (index.html)
+- Difference between S3 website endpoints and standard object endpoints
+
+### What I Learned
+
+- Amazon S3 can host static websites without requiring compute services
+- Public access must be explicitly configured through both bucket settings and policies
+- Bucket policies control access at the resource level, unlike IAM identity policies
+- Object keys must match exactly for static hosting to function correctly
+- Debugging issues in AWS is more reliable using CLI tools rather than relying solely on the console
+- Misconfiguration of access or object placement can result in errors such as NoSuchKey## Debugging & Issue Resolution
 
 ### Issue Encountered
 When attempting to access the static website endpoint, the following error was returned:
