@@ -42,7 +42,7 @@ To verify the bucket's actual state, AWS CloudShell was used.
 The following command was executed:
 ```bash
 aws s3api head-object --bucket scott-s3-static-website-2026 --key index.html
-closing```
+```
 
 This returned a 404 error, confirming that the object did not exist at the expected key.
 
