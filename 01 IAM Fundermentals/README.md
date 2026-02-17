@@ -12,7 +12,7 @@ To demonstrate practical understanding of AWS Identity and Access Management (IA
 User → IAM User → IAM Group → Identity-Based Policies → S3 Bucket
 This project demonstrates how permissions are assigned through group membership and enforced via identity-based policies.
 
-## Implementation Steps
+## Steps
 
 1. Created an S3 bucket named scott-iam-portfolio-bucket-2026 for permission testing.
 2. Created an IAM group called S3ReadOnlyGroup.
