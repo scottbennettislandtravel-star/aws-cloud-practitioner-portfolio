@@ -26,7 +26,6 @@ This project demonstrates how static content can be served directly from S3 with
 - Difference between S3 website endpoints and standard object endpoints
 
 ## What I Learned
-
 - Amazon S3 can host static websites without requiring compute services
 - Public access must be explicitly configured through both bucket settings and policies
 - Bucket policies control access at the resource level, unlike IAM identity policies
@@ -36,7 +35,6 @@ This project demonstrates how static content can be served directly from S3 with
 
 ## Debugging & Issue Resolution
 When attempting to access the static website endpoint, the following error was returned:
-
 - 404 Not Found
 - NoSuchKey: index.html
 
@@ -52,16 +50,12 @@ To verify the actual state of the bucket, AWS CloudShell was used.
 
 ### CLI Verification
 The following command was executed:
-
 aws s3api head-object --bucket scott-s3-static-website-2026 --key index.html
-
 This returned a 404 error, confirming that the object did not exist at the expected key.
 
 ### Resolution
 The file was re-uploaded using the AWS CLI to ensure correct placement at the root of the bucket:
-
 aws s3 cp index.html s3://scott-s3-static-website-2026/index.html --content-type text/html
-
 After this, the object was successfully detected and the website loaded correctly.
 
 ### Key Learning
@@ -69,7 +63,6 @@ After this, the object was successfully detected and the website loaded correctl
 - AWS CLI provides a more reliable and precise method for verifying resource existence
 - S3 object keys must match exactly; even small differences result in errors
 - Debugging in AWS should be based on verification, not assumptions
-
 This debugging process reinforced the importance of using AWS CLI tools for accurate verification and troubleshooting in cloud environments.
 
 ## Security Considerations
