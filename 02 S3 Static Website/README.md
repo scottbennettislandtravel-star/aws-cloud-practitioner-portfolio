@@ -34,7 +34,7 @@ This project demonstrates how static content can be served directly from S3 with
 - Debugging issues in AWS is more reliable using CLI tools rather than relying solely on the console
 - Misconfiguration of access or object placement can result in errors such as NoSuchKey## Debugging & Issue Resolution
 
-## Issue Encountered
+## Debugging & Issue Resolution
 When attempting to access the static website endpoint, the following error was returned:
 
 - 404 Not Found
