@@ -71,8 +71,14 @@ Key pair permissions were secured using chmod 400
 In production, additional controls such as HTTPS, load balancers, and IAM roles would be implemented
 
 ## Evidence
-EC2 Instance Overview
-Security Group Rules
-SSH Connection
-Apache Installation
-Live Website
+### EC2 Instance Overview
+![EC2 Instance Overview](images/ec2-instance-overview.png)
+
+### Security Group Rules
+![Security Group Rules](images/security-group-rules.png)
+
+### SSH Connection
+![SSH Terminal](images/ssh-terminal.png)
+
+### Live Website
+![Live Website](images/webpage-live.png)
