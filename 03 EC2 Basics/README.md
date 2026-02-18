@@ -13,7 +13,7 @@ This project demonstrates how a virtual server can be deployed in the cloud and 
 
 ## Steps
 1. Launched an EC2 instance using Amazon Linux 2023
-2. Selected a t2.micro/t3.micro instance type
+2. Selected a t3.micro instance type
 3. Created and downloaded a key pair for secure SSH access
 4. Configured security group rules:
    - SSH (22) restricted to My IP
@@ -60,15 +60,15 @@ ssh -i ~/.ssh/scott-ec2-basics-2026.pem ec2-user@YOUR_PUBLIC_IP
 This allowed secure access while keeping SSH restricted to My IP.
 
 ## Key Learning
-EC2 Instance Connect may require broader SSH access depending on AWS source IPs
-Using SSH locally provides more control and aligns with security best practices
-Security group rules must be carefully configured to balance access and security
+- EC2 Instance Connect may require broader SSH access depending on AWS source IPs
+- Using SSH locally provides more control and aligns with security best practices
+- Security group rules must be carefully configured to balance access and security
 
 ## Security Considerations
-SSH access was restricted to My IP to reduce exposure
-HTTP access was open to the internet to allow public access to the website
-Key pair permissions were secured using chmod 400
-In production, additional controls such as HTTPS, load balancers, and IAM roles would be implemented
+- SSH access was restricted to My IP to reduce exposure
+- HTTP access was open to the internet to allow public access to the website
+- Key pair permissions were secured
+- In production, additional controls such as HTTPS, load balancers, and IAM roles would be implemented
 
 ## Evidence
 ### EC2 Instance Overview
@@ -77,7 +77,7 @@ In production, additional controls such as HTTPS, load balancers, and IAM roles 
 ### Security Group Rules
 ![Security Group Rules](images/security-group-rules.png)
 
-### SSH Connection
+### SSH Connection and Apache Installation
 ![SSH Terminal](images/ssh-terminal.png)
 
 ### Live Website
