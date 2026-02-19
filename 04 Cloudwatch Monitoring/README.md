@@ -19,7 +19,7 @@ This project demonstrates how system performance can be monitored in real time a
 5. Created a CloudWatch alarm based on CPU utilisation
 6. Configured alarm conditions:
    - Threshold: Greater than 70%
-   - Period: 1 minute
+   - Period: 5 minute
    - Evaluation periods: 1
 7. Created an SNS topic (scott-cpu-alerts) for notifications
 8. Subscribed an email endpoint and confirmed the subscription
@@ -65,7 +65,7 @@ The alarm did not trigger immediately due to CloudWatch metric collection interv
 
 ## Resolution
 Adjusted the alarm configuration to:
-- Period: 5 minute
+- Period: 1 minute
 - Evaluation periods: 1
 After applying these settings and re-running the load test, the alarm successfully triggered.
 
