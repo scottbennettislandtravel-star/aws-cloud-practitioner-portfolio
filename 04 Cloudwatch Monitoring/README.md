@@ -65,7 +65,7 @@ The alarm did not trigger immediately due to CloudWatch metric collection interv
 
 ## Resolution
 Adjusted the alarm configuration to:
-- Period: 1 minute
+- Period: 5 minute
 - Evaluation periods: 1
 After applying these settings and re-running the load test, the alarm successfully triggered.
 
