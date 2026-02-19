@@ -81,8 +81,18 @@ After applying these settings and re-running the load test, the alarm successful
 - In production, alerts would be integrated with secure incident response systems
 
 ## Evidence
-CloudWatch CPU Metrics
-Alarm Config
-Alarm History
-Email Alert
-Terminal Load Simulation
+
+### CloudWatch CPU Metrics
+![CloudWatch CPU Metrics](images/cpu-metrics.png)
+
+### Alarm Configuration
+![Alarm Configuration](images/alarm-configuration.png)
+
+### Alarm History (OK → ALARM → OK)
+![Alarm History](images/alarm-history.png)
+
+### Email Notification
+![Email Notification](images/email-alert.png)
+
+### Terminal Load Simulation
+![Terminal Load Simulation](images/terminal-load.png)
