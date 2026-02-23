@@ -6,7 +6,7 @@ This repository documents my hands-on journey from foundational AWS concepts to 
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Build real-world AWS projects from scratch
 - Develop practical cloud architecture skills
@@ -15,7 +15,7 @@ This repository documents my hands-on journey from foundational AWS concepts to 
 
 ---
 
-## 📂 Projects
+##  Projects
 
 | # | Project | Description |
 |--|--------|-------------|
@@ -27,7 +27,7 @@ This repository documents my hands-on journey from foundational AWS concepts to 
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 - AWS IAM (Users, Roles, Policies)
 - EC2 Deployment & SSH Access
@@ -39,7 +39,7 @@ This repository documents my hands-on journey from foundational AWS concepts to 
 
 ---
 
-## 🏗️ Architecture Progression
+##  Architecture Progression
 
 This portfolio is structured to progressively build cloud architecture knowledge:
 
@@ -51,7 +51,7 @@ This portfolio is structured to progressively build cloud architecture knowledge
 
 ---
 
-## 🔐 Security Focus
+##  Security Focus
 
 Across all projects, I applied:
 
@@ -63,7 +63,7 @@ Across all projects, I applied:
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 - Cost optimisation and AWS pricing analysis  
 - Load balancing and high availability architecture  
@@ -72,7 +72,7 @@ Across all projects, I applied:
 
 ---
 
-## 📌 Goal
+##  Goal
 
 To transition into a **Junior AWS / Cloud Engineer role** and continue progressing toward **AWS Solutions Architect certification**.
 
