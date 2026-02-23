@@ -51,7 +51,8 @@ This project demonstrates how to build a secure and scalable network architectur
 - S3 access from private subnet is enabled without exposing resources to the public internet
 - Architecture follows best practices for network isolation
 
-[In this project, I implemented both public and private subnets to control how resources are exposed to the internet]
+| In this project, I implemented both public and private subnets to control how resources are exposed to the internet |
+|---------------------------------------------------------------------------------------------------------------------|
 
 ### Public Subnet
 A public subnet is designed for resources that need to be accessible from the internet.
@@ -64,7 +65,7 @@ In this project, the EC2 instance was placed in the public subnet, allowing secu
 
 ---
 
-### 🔒 Private Subnet
+###  Private Subnet
 A private subnet is used for resources that should not be directly accessible from the internet.
 
 This is achieved by:
@@ -75,7 +76,7 @@ In this project, the private subnet was configured to access AWS services (such 
 
 ---
 
-### ⚖️ Key Concept
+###  Key Concept
 Public and private subnets control **network access**, not permissions.
 
 - Subnets determine whether a resource can be reached from the internet
@@ -83,7 +84,7 @@ Public and private subnets control **network access**, not permissions.
 
 ---
 
-### 🧠 Why This Matters
+###  Why This Matters
 Separating resources into public and private subnets improves security by:
 
 - Reducing the attack surface (only necessary resources are exposed)
