@@ -51,6 +51,35 @@ This project demonstrates how to build a secure and scalable network architectur
 - S3 access from private subnet is enabled without exposing resources to the public internet
 - Architecture follows best practices for network isolation
 
+## Evidence
+
+### VPC Configuration
+![VPC](images/vpc-overview.png)
+
+### Subnets
+![Subnets](images/subnets.png)
+
+### Internet Gateway
+![IGW](images/internet-gateway.png)
+
+### Public Route Table
+![Public RT](images/public-route-table.png)
+
+### Private Route Table (S3 Endpoint)
+![Private RT](images/private-route-table.png)
+
+### Route Table Associations
+![Associations](images/route-table-associations.png)
+
+### EC2 Instance Details
+![EC2](images/ec2-instance.png)
+
+### SSH Access
+![SSH](images/ssh-terminal.png)
+
+### S3 Gateway Endpoint
+![Endpoint](images/s3-endpoint.png)
+
 | In this project, I implemented both public and private subnets to control how resources are exposed to the internet |
 |---------------------------------------------------------------------------------------------------------------------|
 
@@ -92,31 +121,3 @@ Separating resources into public and private subnets improves security by:
 - Enabling controlled communication between services
 
 This architecture reflects real-world cloud design principles used in production environments.
-## Evidence
-
-### VPC Configuration
-![VPC](images/vpc-overview.png)
-
-### Subnets
-![Subnets](images/subnets.png)
-
-### Internet Gateway
-![IGW](images/internet-gateway.png)
-
-### Public Route Table
-![Public RT](images/public-route-table.png)
-
-### Private Route Table (S3 Endpoint)
-![Private RT](images/private-route-table.png)
-
-### Route Table Associations
-![Associations](images/route-table-associations.png)
-
-### EC2 Instance Details
-![EC2](images/ec2-instance.png)
-
-### SSH Access
-![SSH](images/ssh-terminal.png)
-
-### S3 Gateway Endpoint
-![Endpoint](images/s3-endpoint.png)
