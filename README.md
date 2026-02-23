@@ -21,7 +21,7 @@ This repository documents my hands-on journey from foundational AWS concepts to 
 |--|--------|-------------|
 | 01 | IAM Fundamentals | User, group, and role management with least privilege principles |
 | 02 | S3 Static Website | Hosting a static website using S3 with public access configuration |
-| 03 | EC2 Web Server | Deploying and configuring a web server on EC2 |
+| 03 | EC2 Basics | Deploying and configuring a web server on EC2 |
 | 04 | CloudWatch Monitoring | Monitoring EC2 with alarms and notifications |
 | 05 | VPC Architecture | Custom VPC with public/private subnets and S3 endpoint |
 
