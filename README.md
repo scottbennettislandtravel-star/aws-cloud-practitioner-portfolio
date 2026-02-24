@@ -8,10 +8,31 @@ This repository documents my hands-on journey from foundational AWS concepts to 
 
 ##  Objectives
 
-- Build real-world AWS projects from scratch
-- Develop practical cloud architecture skills
-- Demonstrate understanding of security, networking, and cost optimisation
-- Create a professional portfolio for junior cloud roles
+- Build real-world AWS projects from scratch  
+- Strengthen my understanding of core AWS concepts  
+- Develop practical cloud architecture skills  
+- Create a professional portfolio for junior cloud roles  
+
+---
+
+##  Why I Built This Portfolio
+
+As I prepared for the AWS Certified Cloud Practitioner (CLF-C02) exam, I realised that relying only on revision and mock exams was not enough to fully understand how AWS services work in practice.
+
+To address this, I began building hands-on projects to apply what I was learning in real environments. This approach has helped reinforce my understanding and given me a clearer view of how AWS services interact in real-world scenarios.
+
+---
+
+##  Learning Approach
+
+I am new to AWS and started this journey with no prior cloud experience.
+
+Throughout this process, I have:
+- Followed official AWS documentation  
+- Applied guidance and best practices from experienced professionals  
+- Used external learning resources to support my understanding  
+
+All projects in this portfolio are built and documented by me as part of my learning process, with a focus on understanding rather than simply following instructions.
 
 ---
 
@@ -21,7 +42,7 @@ This repository documents my hands-on journey from foundational AWS concepts to 
 |--|--------|-------------|
 | 01 | IAM Fundamentals | User, group, and role management with least privilege principles |
 | 02 | S3 Static Website | Hosting a static website using S3 with public access configuration |
-| 03 | EC2 Basics | Deploying and configuring a web server on EC2 |
+| 03 | EC2 Web Server | Deploying and configuring a web server on EC2 |
 | 04 | CloudWatch Monitoring | Monitoring EC2 with alarms and notifications |
 | 05 | VPC Architecture | Custom VPC with public/private subnets and S3 endpoint |
 
@@ -29,13 +50,13 @@ This repository documents my hands-on journey from foundational AWS concepts to 
 
 ##  Skills Demonstrated
 
-- AWS IAM (Users, Roles, Policies)
-- EC2 Deployment & SSH Access
-- S3 Storage & Static Hosting
-- CloudWatch Monitoring & Alerts
-- VPC Networking (Subnets, Routing, IGW)
-- Private Networking with VPC Endpoints
-- Basic Security Best Practices
+- AWS IAM (Users, Roles, Policies)  
+- EC2 Deployment & Secure Access  
+- S3 Storage & Static Hosting  
+- CloudWatch Monitoring & Alerts  
+- VPC Networking (Subnets, Routing, IGW)  
+- Private Networking with VPC Endpoints  
+- Foundational Security Best Practices  
 
 ---
 
@@ -76,4 +97,5 @@ Across all projects, I applied:
 
 To transition into a **Junior AWS / Cloud Engineer role** and continue progressing toward **AWS Solutions Architect certification**.
 
+---
 ---
