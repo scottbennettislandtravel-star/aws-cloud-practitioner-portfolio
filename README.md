@@ -25,16 +25,17 @@ To address this, I began building hands-on projects to apply what I was learning
 
 ##  Learning Approach
 
-I am new to AWS and started this journey with no prior cloud experience.
+I am new to AWS and transitioned into cloud computing with no prior experience in IT or formal technical training. My professional background is in elementary education.
 
 Throughout this process, I have:
+
 - Followed official AWS documentation  
 - Applied guidance and best practices from experienced professionals  
 - Used external learning resources to support my understanding  
 
-All projects in this portfolio are built and documented by me as part of my learning process, with a focus on understanding rather than simply following instructions.
+All projects in this portfolio are built and documented by me as part of my learning journey, with a strong focus on understanding core concepts rather than simply following instructions.
 
----
+This background has strengthened my ability to break down complex topics, stay disciplined in my learning, and approach problem-solving in a structured way.---
 
 ##  Projects
 
