@@ -40,6 +40,7 @@ This project demonstrates the importance of **cost awareness when designing clou
 # Architecture Overview
 
 The architecture used in this project represents a small web application deployment.
+
 User
 ↓
 Application Load Balancer
