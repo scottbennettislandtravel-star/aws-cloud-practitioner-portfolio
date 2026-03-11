@@ -1,4 +1,4 @@
-# AWS Pricing & Cost Optimisation Analysis
+## AWS Pricing & Cost Optimisation Analysis
 
 ## Project Overview
 
@@ -23,7 +23,7 @@ This project demonstrates the importance of **cost awareness when designing clou
 
 ---
 
-# Services Used
+## Services Used
 
 - Amazon EC2
 - Elastic Load Balancing (Application Load Balancer)
@@ -37,7 +37,7 @@ This project demonstrates the importance of **cost awareness when designing clou
 
 ---
 
-# Architecture Overview
+## Architecture Overview
 
 The architecture used in this project represents a small web application deployment.
 
@@ -53,7 +53,7 @@ Amazon S3 Object Storage
 
 ---
 
-# Cost Comparison
+## Cost Comparison
 
 | Architecture | Monthly Cost |
 |---|---|
@@ -63,7 +63,7 @@ Cost Optimised Architecture | $70.63 |
 
 ---
 
-# Baseline Architecture
+## Baseline Architecture
 
 The baseline architecture models a typical small production deployment.
 
@@ -78,7 +78,7 @@ This architecture prioritises simplicity while maintaining standard web applicat
 
 ---
 
-# High Availability Architecture
+## High Availability Architecture
 
 To improve reliability and remove single points of failure, the architecture was modified.
 
@@ -99,7 +99,7 @@ Trade-off:
 
 ---
 
-# Cost Optimised Architecture
+## Cost Optimised Architecture
 
 The architecture was then optimised to reduce operational costs while maintaining functionality.
 
@@ -115,7 +115,7 @@ Result:
 
 ---
 
-# Cost Governance Implementation
+## Cost Governance Implementation
 
 In addition to cost estimation, AWS cost monitoring tools were implemented.
 
@@ -135,7 +135,7 @@ These tags allow infrastructure costs to be categorised and analysed.
 
 ---
 
-# AWS Budget Configuration
+## AWS Budget Configuration
 
 An AWS budget was created to monitor monthly cloud spending.
 
@@ -149,7 +149,7 @@ This ensures cost visibility and early warning when spending approaches the defi
 
 ---
 
-# Budget Alert Notifications
+## Budget Alert Notifications
 
 Amazon SNS was configured to send notifications when budget thresholds are exceeded.
 
@@ -163,7 +163,7 @@ This enables real-time cost alerts.
 
 ---
 
-# Cost Anomaly Detection
+## Cost Anomaly Detection
 
 AWS Cost Anomaly Detection was configured to monitor unusual spending patterns.
 
@@ -181,7 +181,7 @@ This helps identify potential issues such as:
 
 ---
 
-# Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 This project demonstrates several important cloud engineering concepts:
 
@@ -195,7 +195,7 @@ This project demonstrates several important cloud engineering concepts:
 
 ---
 
-# What I Learned
+## What I Learned
 
 Through this project I learned:
 
@@ -206,7 +206,7 @@ Through this project I learned:
 
 ---
 
-# Evidence
+## Evidence
 
 ## Baseline Architecture Cost Estimate
 
