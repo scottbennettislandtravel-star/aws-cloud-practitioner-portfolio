@@ -182,7 +182,7 @@ Through this project I learned:
 
 ## Baseline Architecture Cost Estimate
 
-![Baseline Estimate](images:calculator-baseline-estimate.png)
+![Baseline Estimate](images/calculator-baseline-estimate.png)
 
 ## High Availability Architecture Estimate
 
