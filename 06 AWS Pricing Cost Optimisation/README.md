@@ -19,8 +19,6 @@ In addition to cost estimation, AWS cost governance tools were implemented inclu
 
 This project demonstrates how cloud engineers can design infrastructure while maintaining cost awareness and financial control within AWS environments.
 
----
-
 ## Services Used
 
 - Amazon EC2
@@ -32,8 +30,6 @@ This project demonstrates how cloud engineers can design infrastructure while ma
 - Amazon SNS
 - AWS Cost Anomaly Detection
 - Cost Allocation Tags
-
----
 
 ## Architecture Overview
 
@@ -49,8 +45,6 @@ Amazon RDS PostgreSQL Database
 ↓
 Amazon S3 Object Storage
 
----
-
 ## Cost Comparison
 
 | Architecture | Monthly Cost |
@@ -58,8 +52,6 @@ Amazon S3 Object Storage
 Baseline Architecture | $88.95 |
 High Availability Architecture | $136.61 |
 Cost Optimised Architecture | $70.63 |
-
----
 
 ## Baseline Architecture
 
@@ -73,8 +65,6 @@ Components:
 - Amazon S3 storage
 
 This architecture prioritises simplicity while maintaining standard web application infrastructure.
-
----
 
 ## High Availability Architecture
 
@@ -95,8 +85,6 @@ Trade-off:
 
 - Higher infrastructure cost.
 
----
-
 ## Cost Optimised Architecture
 
 The architecture was then optimised to reduce operational costs while maintaining functionality.
@@ -110,8 +98,6 @@ Optimisations implemented:
 Result:
 
 - Reduced monthly infrastructure cost while maintaining core application functionality.
-
----
 
 ## Cost Governance Implementation
 
@@ -131,8 +117,6 @@ Owner | Scott |
 
 These tags allow infrastructure costs to be categorised and analysed.
 
----
-
 ## AWS Budget Configuration
 
 An AWS budget was created to monitor monthly cloud spending.
@@ -145,8 +129,6 @@ Configuration:
 
 This ensures cost visibility and early warning when spending approaches the defined limit.
 
----
-
 ## Budget Alert Notifications
 
 Amazon SNS was configured to send notifications when budget thresholds are exceeded.
@@ -158,8 +140,6 @@ Configuration:
 - Budget alerts linked to SNS topic
 
 This enables real-time cost alerts.
-
----
 
 ## Cost Anomaly Detection
 
@@ -177,8 +157,6 @@ This helps identify potential issues such as:
 - unexpected usage spikes
 - infrastructure errors
 
----
-
 ## Key Concepts Demonstrated
 
 This project demonstrates several important cloud engineering concepts:
@@ -191,8 +169,6 @@ This project demonstrates several important cloud engineering concepts:
 - Budget monitoring and alerting
 - Anomaly detection for unexpected cost increases
 
----
-
 ## What I Learned
 
 Through this project I learned:
@@ -202,57 +178,39 @@ Through this project I learned:
 - Cost monitoring tools are essential for maintaining financial control in cloud environments.
 - AWS Pricing Calculator is a powerful tool for forecasting infrastructure costs before deployment.
 
----
-
 ## Evidence
 
 ## Baseline Architecture Cost Estimate
 
 ![Baseline Estimate](images/calculator-baseline-estimate.png)
 
----
-
 ## High Availability Architecture Estimate
 
 ![High Availability Estimate](images/calculator-ha-estimate.png)
-
----
 
 ## Cost Optimised Architecture Estimate
 
 ![Cost Optimised Estimate](images/calculator-optimised-estimate.png)
 
----
-
 ## Cost Allocation Tags
 
 ![Cost Allocation Tags](images/cost-allocation-tags.png)
-
----
 
 ## AWS Budget Configuration
 
 ![Budget Configuration](images/budget-configuration.png)
 
----
-
 ## SNS Budget Alert Configuration
 
 ![SNS Budget Alert](images/sns-budget-alert.png)
-
----
 
 ## Cost Anomaly Detection Monitor
 
 ![Anomaly Monitor](images/anomaly-monitor-configuration.png)
 
----
-
 ## Cost Anomaly Detection Dashboard
 
 ![Anomaly Dashboard](images/anomaly-monitor-dashboard.png)
-
----
 
 # Conclusion
 
