@@ -1,23 +1,23 @@
-## Project Overview
+## Objective
 
-This project demonstrates how AWS infrastructure costs can be analysed, monitored, and optimised using AWS pricing tools and cost management services.
+The objective of this project is to analyse and optimise the cost of a typical AWS web application architecture using AWS cost management tools.
 
-The goal of this project is to compare different cloud architecture strategies and evaluate their financial impact using the **AWS Pricing Calculator**.
-
-Three architecture models were analysed:
+Using the AWS Pricing Calculator, three architecture scenarios were designed and compared:
 
 - Baseline architecture
 - High availability architecture
 - Cost optimised architecture
 
+The project demonstrates how architectural decisions directly impact cloud infrastructure costs and highlights the trade-offs between cost, reliability, and performance.
+
 In addition to cost estimation, AWS cost governance tools were implemented including:
 
-- Cost allocation tags
-- AWS Budgets
-- SNS alert notifications
-- Cost Anomaly Detection
+- Cost Allocation Tags for tracking resource spending
+- AWS Budgets for monitoring monthly cost limits
+- Amazon SNS notifications for automated budget alerts
+- AWS Cost Anomaly Detection for identifying unexpected spending patterns
 
-This project demonstrates the importance of **cost awareness when designing cloud infrastructure**.
+This project demonstrates how cloud engineers can design infrastructure while maintaining cost awareness and financial control within AWS environments.
 
 ---
 
