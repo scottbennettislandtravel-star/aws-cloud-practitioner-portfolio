@@ -40,48 +40,6 @@ This project demonstrates the importance of **cost awareness when designing clou
 # Architecture Overview
 
 The architecture used in this project represents a small web application deployment.
-# AWS Pricing & Cost Optimisation Analysis
-
-## Project Overview
-
-This project demonstrates how AWS infrastructure costs can be analysed, monitored, and optimised using AWS pricing tools and cost management services.
-
-The goal of this project is to compare different cloud architecture strategies and evaluate their financial impact using the **AWS Pricing Calculator**.
-
-Three architecture models were analysed:
-
-- Baseline architecture
-- High availability architecture
-- Cost optimised architecture
-
-In addition to cost estimation, AWS cost governance tools were implemented including:
-
-- Cost allocation tags
-- AWS Budgets
-- SNS alert notifications
-- Cost Anomaly Detection
-
-This project demonstrates the importance of **cost awareness when designing cloud infrastructure**.
-
----
-
-# Services Used
-
-- Amazon EC2
-- Elastic Load Balancing (Application Load Balancer)
-- Amazon RDS (PostgreSQL)
-- Amazon S3
-- AWS Pricing Calculator
-- AWS Budgets
-- Amazon SNS
-- AWS Cost Anomaly Detection
-- Cost Allocation Tags
-
----
-
-# Architecture Overview
-
-The architecture used in this project represents a small web application deployment.
 User
 ↓
 Application Load Balancer
@@ -91,7 +49,6 @@ EC2 Web Server
 Amazon RDS PostgreSQL Database
 ↓
 Amazon S3 Object Storage
-
 
 ---
 
