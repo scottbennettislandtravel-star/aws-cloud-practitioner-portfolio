@@ -1,5 +1,3 @@
-## AWS Pricing & Cost Optimisation Analysis
-
 ## Project Overview
 
 This project demonstrates how AWS infrastructure costs can be analysed, monitored, and optimised using AWS pricing tools and cost management services.
