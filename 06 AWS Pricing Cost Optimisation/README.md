@@ -111,7 +111,7 @@ Tags created:
 
 | Key | Value |
 |---|---|
-Project | AWS-Portfolio |
+Project | Portfolio |
 Environment | Dev |
 Owner | Scott |
 
