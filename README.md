@@ -87,10 +87,10 @@ Across all projects, I applied:
 
 ##  Next Steps
 
-- Cost optimisation and AWS pricing analysis  
-- Load balancing and high availability architecture  
-- Infrastructure as Code (Terraform / CloudFormation)  
-- Serverless architecture (Lambda, API Gateway)  
+6. Cost optimisation and AWS pricing analysis  
+7. Load balancing and high availability architecture  
+8. Infrastructure as Code (Terraform / CloudFormation)  
+9. Serverless architecture (Lambda, API Gateway)  
 
 ---
 
